@@ -10,4 +10,6 @@ inputs:
 runs:
   using: 'docker'
   image: 'docker://msoap/ascii-art:latest'
-  entrypoint: "/usr/local/bin/cowsay 'Hello'"
+  args:
+    - /usr/local/bin/cowsay
+    - 'Hello'
