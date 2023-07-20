@@ -11,6 +11,3 @@ runs:
   using: 'docker'
   image: 'docker://busybox'
   entrypoint: 'sh -c "echo hello"]
-  env:
-    DEBUG: ${{ inputs.debug }}
-    
