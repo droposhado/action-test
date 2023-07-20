@@ -10,7 +10,7 @@ inputs:
 runs:
   using: 'docker'
   # image: 'docker://msoap/ascii-art:latest'
-  image: 'docker://quay.io/msoap/ascii-art'
+  image: 'docker://quay.io/msoap/ascii-art:latest'
   args:
     - /usr/local/bin/cowsay
     - 'Hello'
