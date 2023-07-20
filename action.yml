@@ -9,5 +9,5 @@ inputs:
     default: ''
 runs:
   using: 'docker'
-  image: 'docker://busybox'
+  image: 'docker://busybox:1.36.1-musl'
   entrypoint: 'sh -c "echo hello"'
