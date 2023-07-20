@@ -1,0 +1,16 @@
+name: 'action-test'
+description: 'action to test use of builded docker hub images'
+branding:
+  icon: 'award'
+  color: 'green'
+inputs:
+  debug:
+    required: false
+    default: ''
+runs:
+  using: 'docker'
+  image: 'docker://busybox'
+  entrypoint: 'sh -c "echo hello"]
+  env:
+    DEBUG: ${{ inputs.debug }}
+    
