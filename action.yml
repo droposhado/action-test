@@ -10,4 +10,4 @@ inputs:
 runs:
   using: 'docker'
   image: 'docker://busybox:1.36.1-musl'
-  entrypoint: 'sh -c "echo hello"'
+  #entrypoint: 'sh -c "echo hello"'
